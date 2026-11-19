@@ -1,7 +1,6 @@
 --
 -- PostgreSQL database dump
 --
-
 \restrict uV4mPHJecSbAJFT3I1bkkNUvRTMgg910RYgcI4BTOLcmIwhpAuu7mUPfM3dYc5c
 
 -- Dumped from database version 18.7 (Debian 18.7-1.pgdg13+2)
