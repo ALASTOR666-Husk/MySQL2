@@ -2,13 +2,11 @@ CREATE TABLE Representatives (
     rep_id INT PRIMARY KEY,
     rep_name VARCHAR(100) NOT NULL
 );
-
 CREATE TABLE Products (
     prod_id INT PRIMARY KEY,
     prod_name VARCHAR(100) NOT NULL,
     price DECIMAL(10, 2) NOT NULL
 );
-
 CREATE TABLE Orders (
     order_id INT PRIMARY KEY,
     order_date DATE NOT NULL,
@@ -16,7 +14,6 @@ CREATE TABLE Orders (
     rep_id INT NOT NULL,
     FOREIGN KEY (rep_id) REFERENCES Representatives(rep_id)
 );
-
 CREATE TABLE Order_Items (
     order_id INT,
     prod_id INT,
