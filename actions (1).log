@@ -1,4 +1,4 @@
-Time                 Id Command    Argument 
+Time                 Id Command   Argument 
 2026-11-17T10:00:01.000000Z	    1 Connect	docker run --name lab4_db -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres:latest
 2026-11-17T10:00:02.500000Z	    1 Query	f3c8b98a5fc2534264e24923422249d164fdde0bbb0798030507b9c4c6e23140
 2026-11-17T10:00:03.000000Z	    1 Error	docker: Error response from daemon: failed to set up container networking: Bind for 0.0.0.0:5432 failed: port is already allocated
